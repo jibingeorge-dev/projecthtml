@@ -1,0 +1,87 @@
+*{
+    margin: 30px;
+    margin-inline-end: 50px;
+    margin-inline-start: 50px;
+}
+body{
+    background-color: chocolate;
+
+
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-family: fantasy;
+
+}
+h3{
+    
+}
+.box1  ul li {
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+
+}
+#id1{
+    color: darkred;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.box2 ul li{
+     list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: right;
+
+
+}
+#id2{
+    color: darkred;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: right;
+
+}
+.box3 ul li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+#id3{
+    color: darkred;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+.box4 ol li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: right;
+}
+#id4{
+     color: darkred;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: right;
+}
+.box5 ol li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+#id5{
+    color: darkred;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
