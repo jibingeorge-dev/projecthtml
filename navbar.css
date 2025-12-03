@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    
+}
+.Links{
+    display: flex;
+    
+    gap: 100px;
+    font-size: 20px;
+    
+    
+
+
+}
+.Links li{
+    list-style: none;
+
+}
+.Links a{
+    text-decoration: none;
+    color: black;
+
+}
+.logo{
+    font-family: fantasy;
+    font-size: 40px;
+}
+.login{
+    padding: 10px 40px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: cadetblue;
+
+}
