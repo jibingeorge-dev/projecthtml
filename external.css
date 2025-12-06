@@ -1,0 +1,20 @@
+        *{
+            margin: 1x;;
+        }
+        p{
+            color: blueviolet;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #box1{
+            color: brown;
+            font-family: 
+        }
+        .box2{
+            color: chartreuse;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        body{
+            background-color: black;
+        }
+    

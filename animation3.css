@@ -1,0 +1,47 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+   
+
+}
+
+.dot1,.dot2,.dot3{
+    animation: typing 0.8s linear  infinite ;
+}
+.dot1{
+     animation-delay:0.9s;
+}
+.dot2{
+     animation-delay: 0.3s;
+}
+.dot3{
+     animation-delay: 0.7;
+}
+@keyframes typing{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+         transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+         
+    }
+    
+}
