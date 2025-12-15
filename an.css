@@ -1,0 +1,8 @@
+.hi{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+.hi :hover{
+    background-color: brown;
+}

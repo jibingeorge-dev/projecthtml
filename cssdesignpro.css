@@ -9,6 +9,7 @@ body{
     gap: 35px;
     max-width: 1090px;
     margin: 100px auto;  
+    background-color: chartreuse;
     
 }
 .container1{
@@ -193,8 +194,8 @@ img{
 @media(max-width:480px){
     .main{
         flex-direction: row;
-         gap: 10px;
-         justify-content: center;
+        gap: 10px;
+        justify-content: center;
         
         margin: 0px;
         max-height: 1200px;

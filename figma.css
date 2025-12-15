@@ -1,0 +1,487 @@
+
+.main{
+    background-color: darkgrey;
+    /* margin-left: -8px;
+    margin-right: -8px; */
+    
+
+   
+    
+}
+body{
+    background-color: rgb(15, 17, 16);
+
+}
+.navbar{
+    background-color: black ;
+    width:100%;
+    height: 76px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    
+    
+    
+    /* margin: -8px; */
+
+    
+    
+    
+}
+.box{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    /* font-family: "Segoe UI Light", "Segoe UI", sans-serif; */
+    
+    border-right: 1px solid gray;
+
+    
+
+}
+.box4{
+    position: absolute;
+    right: 8px;
+    font-size: 30px;
+    padding: 18.5px;
+    border-right: none;
+    
+    
+}
+.imgbody{
+    background-image: url(figmaimg1.jpg);
+    background-size: cover;
+    /* background-position: center 60%;  */
+    background-position-y: 59%;
+    background-repeat: no-repeat;
+    height: 650px;
+    min-width:1280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+    
+
+    
+}
+.imgbody h1{
+    color: white;
+    width: 549px;
+    height: 226px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 135px;
+    position: absolute;
+    top: 50px;
+    left: 47px;
+    line-height: 125px;
+    text-align: left;
+}
+.btn1{
+    width: 185px;
+    height: 55px;
+    background-color: rgb(207, 251, 251);
+    position: relative;
+    margin-top: 544px;
+    margin-left: 36px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    
+    
+}
+.button :hover{
+     background-color:rgb(226, 21, 226);
+}
+.container{
+    min-width: 1280px;
+    height: 2632px;
+    background-color: aquamarine;
+}
+.bluebox{
+    min-width: 1280px;
+    height: 50px;
+    background-color: rgb(26, 94, 242);
+    font-family: 'Encode Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.bluebox h4{
+    font-weight: 500;
+    
+}
+.vision{
+    width:100%;
+    height: 640px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    
+    
+}
+#img1{
+    background-color: rgb(7, 236, 7);
+    width: 50%;
+    background-image: url(morgan-petroski-LsMxdW1zWEQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position-y: 25%;
+    
+}
+#head1{
+    color: white;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    width: 298px;
+    height: 113px;
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#head1 h1{
+    font-size: 135px;
+}
+
+#text1{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content1{
+    width: 420px;
+    height: 256px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    
+    
+}
+.content1 h3{
+    
+    height: 18px;
+    margin-top: 0px;
+    
+    
+    
+    
+
+}
+.content1 p{
+    
+    height: 120px;
+}
+.content1 button{
+    background-color: blue;
+    width: 106px;
+    height: 48px;
+    border: none;
+    color: white;
+}
+.classes{
+    width:100%;
+    height: 640px;
+    display: flex;
+   
+    background-color: white;
+}
+#img2{
+    background-color: rgb(7, 236, 7);
+    width: 50%;
+    background-image: url(Title\ container.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position-y: 25%;
+    
+}
+#text2{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content2{
+    width: 420px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    
+}
+.content2 h3{
+    
+    height: 18px;
+    margin-top: 0px;
+    
+    
+    
+    
+    
+
+}
+.content2 p{
+    
+    height: 60px;
+}
+.content2 button{
+    background-color: blue;
+    width: 158px;
+    height: 48px;
+    border: none;
+    color: white;
+}
+.founder{
+     width: 100%;
+     height: 800px;
+     background-color: coral;
+     display: flex;
+}
+#text3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 800px;
+    
+
+}
+.aboutfd{
+    width: 100%;
+    height: 528px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    justify-content: space-around;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+.aboutfd h1{
+    width: 580px;
+    height: 41px;
+    
+    
+    margin-left: 40px;
+
+}
+#quote{
+    width: 400px;
+    height: 139px;
+    
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+#quote h1{
+    width: 400px;
+    height: 66px;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+
+#photo{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100%;
+    width: 50%;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+#founders{
+    height: 50%;
+    line-height: 0px;
+    
+}
+#founders img{
+    width: 100%;
+    height: 307px;
+}
+.name{
+    height: 93px;
+    background-color:rgb(226, 21, 226);
+    margin-top: px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.name1{
+     background-color:rgb(26, 94, 242);
+
+}
+
+#text{
+    
+    width: 600px;
+    height: 53px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+}
+#text h3{
+    width: 600px;
+    height: 24px;
+    
+    margin-top: 0px;
+
+}
+#text p{
+    width: 600px;
+    height: 18px;
+    margin-top: -12px;
+    
+}
+
+
+
+.caption{
+    min-width: 1280px;
+    height: 499px;
+    background-color:rgb(26, 94, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: 'Encode Sans Condensed', sans-serif;
+    
+}
+.text4{
+    width: 960px;
+    height: 201px;
+
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text4 h1{
+    
+    height: 123px;
+    margin-top: 0;
+    color: white;
+   
+
+}
+.text4 button{
+    width: 158px;
+    height:46px;
+    background-color: rgb(207, 251, 251);
+    border: 0px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.about{
+    min-width: 1280px;
+    height: 698px;
+    background-color:rgb(207, 251, 251);
+    border-top: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+     
+     
+}
+.contact{
+    min-width: 1280px;
+    height: 470px;
+    background-color:rgb(207, 251, 251);
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+#cap{
+    width: 33.33333%;
+    height: 226px;
+    
+     font-family: 'Encode Sans Condensed', sans-serif;
+     
+
+}
+#cap h1{
+    font-size: 135px;
+    font-weight: 600;
+    /* background-color: aqua; */
+    line-height: 110px;
+    margin-top: 0;
+    margin-left: 40px;
+    
+
+}
+#con{
+    width: 33.33333%;
+    height: 204px;
+    
+     font-family: 'Encode Sans Condensed', sans-serif;
+}
+#con a{
+    text-decoration: none;
+    color: black;
+}
+#con p{
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+#add{
+    width: 33.33333%;
+    height: 162px;
+    
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+#add p{
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+.lsdiv{
+    min-width: 1280px;
+    height: 188px;
+    background-color: deeppink;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+.lsdiv h3{
+    margin-left: 30px;
+}
+#box1{
+    width: 33.33333%;
+    height: 188px;
+    background-color:rgb(26, 94, 242);
+    color: white;
+    
+   
+}
+#box2{
+    width: 33.33333%;
+    height: 188px;
+    background-color:black;
+    color: white;
+}
+#box3{
+    width: 33.33333%;
+    height: 188px;
+    background-color:rgb(226, 21, 226);
+
+
+
+}
