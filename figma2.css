@@ -1,0 +1,494 @@
+/* .main{
+    margin: -8px;
+} */
+ body{
+    margin:0px ;
+   
+    
+ }
+.navbar {
+    width: 100%;
+    height: 96px;
+    background-color: white;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    z-index: 1000;
+    /* left: 0px; */
+   
+    
+   
+
+
+}
+.navbar h3{
+    font-family: 'Kulim Park', sans-serif;
+    height: 27px;
+    width: 140px;
+    
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 26px;
+    
+
+}
+.navbar ul{
+    display: flex;
+    width: 484px;
+    height: 20px;
+   
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar button{
+    height: 45px;
+    width: 114px;
+    background-color: black;
+    color: white;
+    margin-right: 35px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+.home{
+    width: 100%;
+    height: 556px;
+    background-color: white;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 96px; */
+}
+.head{
+    width: 531px;
+    height: 337px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.h1{
+    width: 531px;
+    height: 204px;
+    
+    
+    
+
+}
+.h1 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+   
+    margin-top: 0px;
+}
+.h1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+   
+   margin-top: -4px;
+}
+#btn{
+    width: 531px;
+    height: 45px;
+    
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+#btn button{
+    width: 165px;
+    height: 45px;
+    background-color: #FFCF23;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px;
+    
+}
+#btn p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+   
+    width: 346px;
+    height: 38px;
+    
+}
+.img{
+    width: 531px;
+    height: 428px;
+    /* background-color: darkblue; */
+    
+}
+ .img img{
+    width: 531px;
+    height: 428px;
+    border-radius: 12px;
+}
+.caption{
+    width: 100%;
+    height: 268px;
+   background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.cap1{
+    width: 360px;
+    height: 140px;
+   
+    
+}
+.cap1, .cap2, .cap3, h2{
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 18px; 
+   
+   margin-top: 0px;
+   line-height: 28px;
+   
+}
+.cap1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    line-height: 24px;
+}
+.cap2{
+    width: 360px;
+    height: 116px;
+    
+    margin-top: -23px;
+}
+.cap2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    line-height: 24px;
+}
+.cap3{
+    width: 360px;
+    height: 140px;
+   
+}
+.cap3 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    line-height: 24px;
+}
+.work{
+    width: 100%;
+    height: 620px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 1140px;
+    height: 428px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img2{
+    width: 503.5px;
+    height: 428px;
+    /* background-color: aqua; */
+}
+.img2 img{
+   width: 503.5px;
+    height: 428px;
+    border-radius: 12px;
+     
+
+}
+.imgcap{
+    width: 503.5px;
+    height: 280px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+.imgcap h2{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+}
+.imgcap p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.imgcap span{
+    font-style: italic;
+}
+.imgcap ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    vertical-align: middle;
+    margin-left: -20px;
+}
+
+.review{
+    width: 100%;
+    height: 540px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox{
+    width: 1140px;
+    height: 348px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 360px;
+    height: 348px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    background-color: #F3F3F3;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.para p{
+    width:312px;
+    height: 140px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+   
+    margin: 0;
+   
+    
+
+}
+.authorimg{
+    width: 312px;
+    height: 104px;
+    
+    
+     /* margin-left: 25px;
+     margin-top: 70px; */
+}
+.authorimg img{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+  
+    
+}
+.authorimg h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  
+    letter-spacing: 0.1px;
+    
+
+}
+.image{
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(to bottom, #FFCF23, #FFE27B);
+    overflow: hidden;
+  
+}
+.image img{
+  
+  position: relative;
+  bottom: 250px;
+  /* height: 720px; */
+  width: 100%; 
+     
+  opacity: 0.25; 
+}
+.footer{
+    width: 100%;
+    height: 348px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.contact{
+    width: 1140px;
+    height: 156px;
+   
+    display: flex;
+   
+}
+#name {
+    width: 228px;
+    height: 27px;
+    
+    
+}
+#name h3{
+    
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px;
+  
+}
+.firstcol{
+    width: 228px;
+    height: 144px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.colname h3{
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    
+    margin: 0;
+
+}
+.page{
+    height: 104px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+   
+    margin: 0;
+}
+.secondcol{
+    width: 228px;
+    height: 116px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page1{
+    height: 76px;
+}
+.thirdcol{
+    width: 228px;
+    height: 116px;
+    
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe{
+    width: 228px;
+    height: 156px;
+    
+       display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mail{
+    height: 108px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id{
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF26;
+    border-radius: 40px;
+   
+   
+}
+#id h4{
+    color: #FFFFFF;
+    opacity: 50%;
+    width: 86px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    vertical-align: middle;
+   
+    
+
+}
+#id img {
+    width: 13px;
+    height: 11px;
+    
+}
+
+
+
+#text{
+    height: 40px;
+   
+   
+}
+#text p{
+    color: #FFFFFF;
+    opacity: 40%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+     margin: 0;
+}

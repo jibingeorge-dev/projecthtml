@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+#box1{
+    background-color: aqua;
+    position: absolute;
+    left:500px;
+}
+#box2{
+    text-align: left;
+    font-weight: bold;
+    
+}
