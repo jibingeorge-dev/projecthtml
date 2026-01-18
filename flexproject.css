@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(16, 16, 16);
+     display: flex;
+     justify-content: center;
+
+    
+
+
+    
+    
+}
+.container{
+   
+    display: flex;
+    background-color: aliceblue;
+    width: 900px;
+    height: 700px;
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius:100px;
+}
+
+.box1{
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(225, 220, 220);
+    margin-top: 10px;
+    margin-bottom: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+   
+    
+
+     
+}
+.box2{
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-bottom: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+.box3{
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+   
+    margin-top: 10px;
+    margin-bottom: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.box4{
+   position:absolute;
+   top: 350px;
+   left: 300px;
+   text-align: center;
+  
+   padding: 30px;
+   bottom: 45px;
+   border-radius: 20px;
+   margin-left: 30px;
+   
+}
+
+.box5{
+    position: absolute;
+    top: 350px;
+    left: 637px;
+    
+    padding: 30px;
+    bottom:45px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.box6{
+    position: absolute;
+    top: 350px;
+    right: 339px;
+    background-color: rgb(225, 220, 220);
+    padding: 30px;
+    bottom: 45px;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+h4{
+    font-weight: lighter;
+}

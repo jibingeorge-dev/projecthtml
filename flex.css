@@ -1,0 +1,18 @@
+.container{
+display: flex;
+justify-content: space-evenly;
+background-color: cadetblue;
+gap: 15px;
+height: 400px;
+border-radius: 20px;
+margin: 20px;
+align-items: center;
+
+}
+.box{
+    background-color: crimson;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+
+}

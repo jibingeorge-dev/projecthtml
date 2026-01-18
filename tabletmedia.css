@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    background-color: blueviolet;
+}
+.item{
+    background-color: brown;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+@media(min-width:600px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        background-color: aquamarine;
+        }
+}
+
+@media(min-width:900px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+        background-color: darkgoldenrod;
+    }
+}

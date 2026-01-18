@@ -1,0 +1,103 @@
+
+body{
+    background-image: url(portfoliobg.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    
+     
+ 
+}
+#link{
+   position:fixed;
+   bottom: 2%;
+   right: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+
+   
+   
+   
+}
+
+.box1{
+    margin-left: 20px;
+}   
+#img{
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+    color: aqua;
+}
+#boxx1{
+    margin-top: 100px;
+    margin-left: 20px;
+    /*position: absolute;
+    right: 800px;
+    top: 100px;*/
+
+    
+}
+#boxx1 p{
+  margin-left: 30px;
+  margin-right: 800px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#boxx2{
+    margin-top: 100px;
+    margin-left: 600px;
+}
+#boxx2 ul{
+    font-size: 20px;
+     margin-left: 10px;
+    
+}
+#boxx2 h4{
+      margin-left: 20px;
+}
+#boxx3{
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+#boxx3 ul{
+    font-size: 20px;
+     margin-left: 10px;
+     margin-right: 900px;
+    
+}
+#boxx3 h4{
+    margin-left: 20px;
+}
+#boxx4{
+    margin-top: 100px;
+    margin-left: 900px;
+}
+#boxx4 ul{
+    font-size: 20px;
+}
+#boxx5{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.box7 {
+    text-align: center;
+    margin-top: 200px;
+}
+.box7 a{
+    text-decoration: none;
+    color: aqua;
+    
+}
+
+
